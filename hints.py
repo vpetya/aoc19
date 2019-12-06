@@ -57,3 +57,15 @@ f(**d)
 
 #lambda
 lambda a, b: a+b
+
+from collections import deque
+
+#the normal list is effective for stack, but slow for queueing
+queue = deque(["Eric", "John", "Michael"])
+
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12], #this is useful 
+    ]
+list(zip(*matrix))
