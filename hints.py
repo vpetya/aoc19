@@ -69,3 +69,9 @@ matrix = [
     [9, 10, 11, 12], #this is useful 
     ]
 list(zip(*matrix))
+
+#delete slice
+a = list(range(10))
+del a[2:4]
+#del variable
+del a
